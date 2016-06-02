@@ -1,6 +1,13 @@
 # sibyl
 Serverless Sentiment Analysis
 
+##### Deploy
+```
+serverless function deploy
+```
+
+##### Run
+
 ```
 curl -s -X POST -H "Content-Type: application/json" -d '{"text": "VADER is smart, handsome, and funny!"}' https://example.amazonaws.com/development/sentiment
 ```
